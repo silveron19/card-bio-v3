@@ -1,0 +1,40 @@
+:root {
+  --primary: #e2e3e6;
+  --secondary: #413d39;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  background-color: var(--secondary);
+  z-index: 99999999;
+  min-height: 15vh;
+}
+
+.navbar div {
+  padding: 1rem;
+  color: var(--primary);
+}
+
+.navbar div:hover {
+  background-color: #5a544f;
+}
+
+.navbar-link.active {
+  color: #1E1E1E;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar-link.default {
+  color: #8A8A8A;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+}

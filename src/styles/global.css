@@ -1,0 +1,21 @@
+:root {
+  --primary: #e2e3e6;
+  --secondary: #413d39;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--primary);
+}
+
+html{
+  scroll-behavior: smooth;
+}
